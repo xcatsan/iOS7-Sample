@@ -11,6 +11,7 @@
 @interface UserDefaults : NSObject
 
 @property (weak, nonatomic) NSString* string;
+@property (weak, nonatomic) NSString* camelString;
 @property (assign, nonatomic) BOOL flag;
 @property (assign, nonatomic) NSInteger integer;
 
