@@ -242,7 +242,7 @@
 
         } else {
             // getter
-            key = selectorName;
+            key = selectorName.lowercaseString;
             id ret = [NSUserDefaults.standardUserDefaults objectForKey:key];
             [self _setReturnValue:ret invocation:invocation];
         }

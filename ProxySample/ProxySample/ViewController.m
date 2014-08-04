@@ -21,6 +21,9 @@
     
     NSLog(@"string=%@", UserDefaults.sharedDefaults.string);
     UserDefaults.sharedDefaults.string = [NSString stringWithFormat:@"%@", NSDate.date];
+
+    NSLog(@"camelString=%@", UserDefaults.sharedDefaults.camelString);
+    UserDefaults.sharedDefaults.camelString = [NSString stringWithFormat:@"%@", NSDate.date];
     
     NSLog(@"flag=%d", UserDefaults.sharedDefaults.flag);
     UserDefaults.sharedDefaults.flag = YES;
